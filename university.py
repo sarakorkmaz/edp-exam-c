@@ -1,5 +1,5 @@
 from event import ApplicationSentEvent, ApplicationAcceptedEvent, ApplicationRejectedEvent
-from communication_queue import CommunicationQueue
+from communication_queue import CommunicationQueue # type: ignore
 class University:
     def __init__(self, name):
         self.name = name
